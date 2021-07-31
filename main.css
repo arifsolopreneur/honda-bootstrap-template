@@ -1,0 +1,195 @@
+/*//////////// 
+    Root CSS
+//////////*/
+
+body {font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 600;
+    font-style: normal;
+}
+.stitle {
+color: #E76F51;
+}
+
+
+
+/*///////////////// 
+    HEADER SECTION
+////////////////*/
+
+header {
+
+    background-color: #264653;
+
+}
+
+.honda-info small {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.honda-info h2 {
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.honda-info p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #E0E0E0;
+}
+
+button.btn.btn-purchase {
+    background-color: #E76F51;
+    border-radius: 5px;
+}
+
+
+.honda-info.text-white {
+    padding: 230px 75px 230px 0px;
+}
+
+.honda-img {
+    margin-top: 155px;
+    margin-bottom: 96px;
+}
+
+/*///////////////// 
+    FEATURED SECTION
+////////////////*/
+
+
+section.fetured {
+    padding: 64px 0;
+}
+
+.section-title small {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 600;
+    color: #E76F51;
+}
+
+.row.bikwraps {
+    margin: 120px 0px;
+}
+
+.grays{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+
+/*///////////////// 
+    Customer Feedback 
+////////////////*/
+
+i.fas.fa-star,i.far.fa-star {
+    color: #E77C40;
+    font-size: 22px;
+    margin: 5px;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2px;
+}
+
+.cus-title,.cus-postion {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+
+/*///////////////// 
+    FAQ 
+////////////////*/
+
+section.faq {
+    margin: 160px 0;
+}
+
+.row.faq-wrap {
+    margin: 115px 0px;
+}
+
+.rif-accor h5 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #383838;
+}
+
+h2#panelsStayOpen-headingOne\ rif-accorbgS button {
+    background-color: #ddd;
+}
+
+.accordion-body {
+    line-height: 28px;
+}
+
+
+
+/*///////////////// 
+    Minor css Code Writen
+////////////////*/
+
+@media only screen and (max-width: 767px) {
+
+    .honda-info.text-white {
+        padding: 30px;
+    }
+
+    .honda-img {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .honda-img img {
+        width: 100%;
+    }
+
+    /* Fetured Section Responsive */
+
+    section.fetured {
+        padding: 30px 0;
+    }
+    
+    .row.bikwraps {
+        margin: 20px 0px;
+    }
+
+    .row.bikwraps img {
+        width: 90%;
+        height: auto;
+        margin: 20px;
+    }
+
+    /* Happpy Customer Section Responsive */
+
+
+
+    /* Customer FAQ Section Responsive */
+   
+    section.faq {
+        margin: 30px 0;
+    }
+
+    .row.faq-wrap {
+        margin: 15px 0px;
+    }
+
+    .faq-img img {
+        margin-bottom: 15px;
+    }
+}
